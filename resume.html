@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Resume of Sundaresan Ravi">
+  <title>Resume | Sundaresan Ravi</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="index.html" style="font-weight: 700; font-size: 1.25rem;">SR.</a>
+      </div>
+      <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="tools.html">Tools</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li>
+          <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+            <i class="fas fa-moon"></i>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="fade-in">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; flex-wrap: wrap; gap: 1rem;">
+      <h1 style="margin: 0;">Curriculum Vitae</h1>
+      <a href="documents/Sundaresan_Ravi_CV.pdf" download class="btn btn-primary" aria-label="Download Curriculum Vitae">
+        <i class="fas fa-download" style="margin-right: 0.5rem;"></i> Download PDF
+      </a>
+    </div>
+
+    <div style="width: 100%; height: 75vh; border: 1px solid var(--border-color); border-radius: 8px; overflow: hidden;">
+      <object data="documents/Sundaresan_Ravi_CV.pdf" type="application/pdf" width="100%" height="100%">
+        <div style="padding: 2rem; text-align: center; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; background: var(--card-bg);">
+          <i class="fas fa-file-pdf" style="font-size: 3rem; color: var(--border-color); margin-bottom: 1rem;"></i>
+          <p>It appears you don't have a PDF plugin for this browser.</p>
+          <p>You can <a href="documents/Sundaresan_Ravi_CV.pdf" download style="color: var(--accent-color); font-weight: 500;">click here to download the PDF file.</a></p>
+        </div>
+      </object>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Sundaresan Ravi. All rights reserved.</p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+
